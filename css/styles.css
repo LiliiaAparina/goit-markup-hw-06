@@ -57,7 +57,6 @@ p {
 }
 
 .main-button {
-    min-width: 169px;
     padding: 16px 32px;
     border: 0;
     border-radius: 4px;
@@ -660,7 +659,7 @@ p {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
     background-color: transparent;
-
+    color: var(--primary-white-color);
     outline: none;
 
     transition: border-color;
@@ -688,20 +687,14 @@ p {
 }
 
 .footer-form-button {
-    position: relative;
     display: flex;
     align-items: center;
     gap: 16px;
-    width: 165px;
     padding: 8px 24px;
     box-shadow: none;
 }
 
 .footer-form-icon {
-    position: absolute;
-    top: 50%;
-    right: 24px;
-    transform: translateY(-50%);
     width: 24px;
     height: 20px;
 
@@ -861,19 +854,18 @@ p {
 }
 
 .icon-name {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 24px;
 }
 
 .icon-phone {
-    width: 13px;
-    height: 13px;
+    width: 18px;
+    height: 24px;
 }
 
 .icon-email {
-    width: 15px;
-    height: 12px;
-    left: 17.5px;
+    width: 18px;
+    height: 24px;
 }
 
 .form-textarea {
